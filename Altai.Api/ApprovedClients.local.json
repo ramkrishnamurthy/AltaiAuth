@@ -1,0 +1,7 @@
+﻿[
+  {
+    "client_id": "hrci-client-2", // Random value.
+    "ui_client_secret": "ec7eb3d0c9f44778aec1fee95bf20347df647e430d8e4f6e9a08f604a9794fc4", // Random value.
+    "client_description": "JWT Local client demo"
+  }
+]

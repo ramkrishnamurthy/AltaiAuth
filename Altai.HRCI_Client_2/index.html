@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Altai</title>
+    <script src="https://code.angularjs.org/1.6.9/angular.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="mainController.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body ng-app="myApp">
+<h1>HRCI Client-2</h1>
+<div ng-controller="mainController" class="container">
+    <div class="row">
+        <button class="btn btn-primary" ng-click="auth()">Authorize me</button>
+        <button class="btn btn-primary" ng-click="logout()">Logout</button>
+    </div>
+    <div class="row" style="padding-top: 5px;">
+        <button class="btn btn-primary" ng-click="getMovieList()">GET Movie List</button>
+    </div>
+    <p style="margin-top: 5px;">TOKEN: {{getToken()}}</p>
+    <div ng-if="list.length">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Year</th>
+                <th>Name</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="m in list track by $index">
+                <td>{{m.Year}}</td>
+                <td>{{m.Name}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>
