@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altai.Api", "Altai.Api\Altai.Api.csproj", "{BD59DD91-88FC-48C7-89BA-954100AEC4D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altai.Client.Unknown", "Altai.Client.Unknown\Altai.Client.Unknown.csproj", "{6C81F6AA-D358-441E-AF18-88526D4DDE53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altai.HRCI_Client_1", "Altai.HRCI_Client_1\Altai.HRCI_Client_1.csproj", "{FB6BE7DE-B752-48B6-B260-9C5AD3BBBE5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altai.HRCI_Client_2", "Altai.HRCI_Client_2\Altai.HRCI_Client_2.csproj", "{EEB8C240-9560-4E4A-9FA5-BFDA09BA663B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtSecret.Generator", "JwtSecret.Generator\JwtSecret.Generator.csproj", "{AB6DDA47-1C7E-42A7-BD60-B3F83E233B96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD59DD91-88FC-48C7-89BA-954100AEC4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD59DD91-88FC-48C7-89BA-954100AEC4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD59DD91-88FC-48C7-89BA-954100AEC4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD59DD91-88FC-48C7-89BA-954100AEC4D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C81F6AA-D358-441E-AF18-88526D4DDE53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C81F6AA-D358-441E-AF18-88526D4DDE53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C81F6AA-D358-441E-AF18-88526D4DDE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C81F6AA-D358-441E-AF18-88526D4DDE53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB6BE7DE-B752-48B6-B260-9C5AD3BBBE5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB6BE7DE-B752-48B6-B260-9C5AD3BBBE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB6BE7DE-B752-48B6-B260-9C5AD3BBBE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB6BE7DE-B752-48B6-B260-9C5AD3BBBE5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEB8C240-9560-4E4A-9FA5-BFDA09BA663B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB8C240-9560-4E4A-9FA5-BFDA09BA663B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB8C240-9560-4E4A-9FA5-BFDA09BA663B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB8C240-9560-4E4A-9FA5-BFDA09BA663B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6DDA47-1C7E-42A7-BD60-B3F83E233B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6DDA47-1C7E-42A7-BD60-B3F83E233B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6DDA47-1C7E-42A7-BD60-B3F83E233B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6DDA47-1C7E-42A7-BD60-B3F83E233B96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A619586-6369-480A-8CE2-416CB4901E44}
+	EndGlobalSection
+EndGlobal

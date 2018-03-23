@@ -1,0 +1,8 @@
+﻿[
+  {
+    "client_id": "1I5uPtF4TtIn0lXjy23Y8wrIXhWLWhWv", // Auth0 client client ID. Takes from Auth0 manage panel
+    "ui_client_secret": "3ae06cbfa6544fd09c252eec1673f78ccf0bfcb5d45943a289847d3d2268e858", // Random value.
+    "auth0_client_secret": "wV8DnGVbb0bUqITEYAZKIm1FRdpu5YeTtDqyztCBLjd6iLAdE_be4O36ZeOk9-A8", // Auth0 client client ID. Takes from Auth0 manage panel
+    "client_description": "Auth0 client demo"
+  }
+]
