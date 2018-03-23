@@ -1,0 +1,11 @@
+bin/
+obj
+.vs
+.csproj.user
+.user
+*.user
+Source/packages
+Source/TestResults/
+csx/
+ecf/
+*.suo
